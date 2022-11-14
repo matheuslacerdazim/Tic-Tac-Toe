@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Jogo da Velha</title>
+</head>
+
+<body>
+
+  <header>
+    <h1>Jogo da Velha</h1>
+    <h2>Jogador da vez: <span id="sJogadorDaVez">X</span></h2>
+    <h2>Vencedor: <span id="exibirVencedor"></span></h2>
+  </header>
+
+  <main>
+    <div class="tile_row">
+      <span class="tile" id="tile1" onclick="selecionarCasa(event, 1)"></span>
+      <span class="tile" id="tile2" onclick="selecionarCasa(event, 2)"></span>
+      <span class="tile" id="tile3" onclick="selecionarCasa(event, 3)"></span>
+    </div>
+    <div class="tile_row">
+      <span class="tile" id="tile4" onclick="selecionarCasa(event, 4)"></span>
+      <span class="tile" id="tile5" onclick="selecionarCasa(event, 5)"></span>
+      <span class="tile" id="tile6" onclick="selecionarCasa(event, 6)"></span>
+    </div>
+    <div class="tile_row">
+      <span class="tile" id="tile7" onclick="selecionarCasa(event, 7)"></span>
+      <span class="tile" id="tile8" onclick="selecionarCasa(event, 8)"></span>
+      <span class="tile" id="tile9" onclick="selecionarCasa(event, 9)"></span>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
